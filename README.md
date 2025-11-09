@@ -30,7 +30,7 @@ Our analysis delivers data-backed insights to guide strategic solar investments 
 | Task | Description | Branch | Status |
 |:--|:--|:--|:--|
 | **Task 1:** Git & Environment Setup | Repo creation, venv setup, CI workflow, basic README | `setup-task` |  Completed |
-| **Task 2:** Data Profiling & EDA | Cleaning, outlier detection, time-series analysis | `eda-benin`, `eda-togo`, `eda-sierraleone` |  Completed |
+| **Task 2:** Data Profiling & EDA | Cleaning, outlier detection, time-series analysis | `eda-benin`, `togo`, `eda-sierraleone` |  Completed |
 | **Task 3:** Cross-Country Comparison | Compare irradiance metrics and rank countries | `compare-countries` | Completed |
 | **Task 4:** Interactive Dashboard | Streamlit app for interactive visualization | `dashboard-dev` | 🔄 In progress |
 
