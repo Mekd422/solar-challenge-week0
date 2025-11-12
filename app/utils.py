@@ -1,15 +1,6 @@
 # app/utils.py
 import pandas as pd
 import plotly.express as px
-import streamlit as st
-
-# -------- DATA LOADING --------
-@st.cache_data
-def load_data(country):
-    """Load cleaned CSV data for a given country"""
-    path = f"../data/{country.lower().replace(' ', '_')}_clean.csv"
-    df = pd.read_csv(path, parse_dates=["Timestamp"])
-    return df
 
 # -------- SUMMARY STATISTICS --------
 def summary_stats(df, metric):
